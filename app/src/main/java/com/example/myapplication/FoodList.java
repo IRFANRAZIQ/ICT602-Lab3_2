@@ -46,6 +46,7 @@ public class FoodList extends Activity {
 
     ImageView imageViewFood;
 
+
     @Override
     public void onRequestPermissionsResult(int requestCode,
 
@@ -63,7 +64,6 @@ public class FoodList extends Activity {
             return;
         }
         super.onRequestPermissionsResult(requestCode, permissions, grantResults);}
-
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         if(requestCode == 888 && resultCode == RESULT_OK && data != null){
@@ -78,4 +78,5 @@ public class FoodList extends Activity {
                 e.printStackTrace();
             }    }
         super.onActivityResult(requestCode, resultCode, data);}
+
 }

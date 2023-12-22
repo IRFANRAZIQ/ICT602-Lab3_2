@@ -1,7 +1,6 @@
 package com.example.myapplication;
 
 public class Food {
-
     private int id;
     private String name;
     private String price;
@@ -15,27 +14,34 @@ public class Food {
     }
 
     public int getId() {
-        return id;    }
+        return id;
+    }
 
     public void setId(int id) {
-        this.id = id;    }
+        this.id = id;
+    }
 
     public String getName() {
-        return name;    }
+        return name;
+    }
 
     public void setName(String name) {
-        this.name = name;    }
+        this.name = name;
+    }
 
     public String getPrice() {
-        return price;    }
+        return price;
+    }
 
     public void setPrice(String price) {
-        this.price = price;    }
+        this.price = price;
+    }
 
     public byte[] getImage() {
-        return image;    }
+        return image;
+    }
 
     public void setImage(byte[] image) {
-        this.image = image;    }
-
+        this.image = image;
+    }
 }
